@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+        <div class="header-top">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search">
+                <button type="submit" id="search-button">
+                    <span class="icon">&#128269;</span>
+                </button>
+            </div>
+            <nav class="top-header-container">
+                <ul class="top-menu">
+                    <li class="top-menu-item">
+                        <span>Log On</span>
+                    </li>
+                    <li class="top-menu-item">
+                        <span>Join Us</span>
+                    </li>
+                    <li class="top-menu-item">
+                        <span>Prices & Memberships</span>
+                    </li>
+                    <li class="top-menu-item">
+                        <span>Reminders</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-header">
+            <div class="hamburger-icon">
+                <div class="hamburger-slice"></div>
+                <div class="hamburger-slice"></div>
+                <div class="hamburger-slice"></div>
+            </div>
+            <div class="title-logo">
+                <img src="images/logo.svg">
+            </div>
+            <div class="favourites-icon">
+                <span class="star">&#9733;</span>
+            </div>
+        </div>
+        <div class="mobile-search-container">
+            <input type="text" id="mobile-search-input" placeholder="Search">
+        </div>
+        <nav class="dropdown-nav">
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    OCCASIONS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                    <div class="dropdown-items">
+                        <div class="col-1">
+                            <a class="dropdown-item" href="#">Happy Birthday</a>
+                            <a class="dropdown-item" href="#">Thank You</a>
+                            <a class="dropdown-item" href="#">Thinking of You</a>
+                            <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                            <a class="dropdown-item" href="#">Just Saying Hi</a>
+                            <a class="dropdown-item" href="#">Get Well Soon</a>
+                            <a class="dropdown-item" href="#">Congratulations</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="dropdown-item" href="#">With Sympathy</a>
+                            <a class="dropdown-item" href="#">New Baby</a>
+                            <a class="dropdown-item" href="#">Bon Voyage</a>
+                            <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                            <a class="dropdown-item" href="#">US Patriotic</a>
+                            <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-image">
+                        <img src="images/image.jpg">
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    HOLIDAYS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                    <div class="dropdown-items">
+                        <div class="col-1">
+                            <a class="dropdown-item" href="#">Happy Birthday</a>
+                            <a class="dropdown-item" href="#">Thank You</a>
+                            <a class="dropdown-item" href="#">Thinking of You</a>
+                            <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                            <a class="dropdown-item" href="#">Just Saying Hi</a>
+                            <a class="dropdown-item" href="#">Get Well Soon</a>
+                            <a class="dropdown-item" href="#">Congratulations</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="dropdown-item" href="#">With Sympathy</a>
+                            <a class="dropdown-item" href="#">New Baby</a>
+                            <a class="dropdown-item" href="#">Bon Voyage</a>
+                            <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                            <a class="dropdown-item" href="#">US Patriotic</a>
+                            <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-image">
+                        <img src="images/image.jpg">
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    THEMES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                    <div class="dropdown-items">
+                        <div class="col-1">
+                            <a class="dropdown-item" href="#">Happy Birthday</a>
+                            <a class="dropdown-item" href="#">Thank You</a>
+                            <a class="dropdown-item" href="#">Thinking of You</a>
+                            <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                            <a class="dropdown-item" href="#">Just Saying Hi</a>
+                            <a class="dropdown-item" href="#">Get Well Soon</a>
+                            <a class="dropdown-item" href="#">Congratulations</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="dropdown-item" href="#">With Sympathy</a>
+                            <a class="dropdown-item" href="#">New Baby</a>
+                            <a class="dropdown-item" href="#">Bon Voyage</a>
+                            <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                            <a class="dropdown-item" href="#">US Patriotic</a>
+                            <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-image">
+                        <img src="images/image.jpg">
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    GIFT SHOP
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                    <div class="dropdown-items">
+                        <div class="col-1">
+                            <a class="dropdown-item" href="#">Happy Birthday</a>
+                            <a class="dropdown-item" href="#">Thank You</a>
+                            <a class="dropdown-item" href="#">Thinking of You</a>
+                            <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                            <a class="dropdown-item" href="#">Just Saying Hi</a>
+                            <a class="dropdown-item" href="#">Get Well Soon</a>
+                            <a class="dropdown-item" href="#">Congratulations</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="dropdown-item" href="#">With Sympathy</a>
+                            <a class="dropdown-item" href="#">New Baby</a>
+                            <a class="dropdown-item" href="#">Bon Voyage</a>
+                            <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                            <a class="dropdown-item" href="#">US Patriotic</a>
+                            <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-image">
+                        <img src="images/image.jpg">
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ABOUT US
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                    <div class="dropdown-items">
+                        <div class="col-1">
+                            <a class="dropdown-item" href="#">Happy Birthday</a>
+                            <a class="dropdown-item" href="#">Thank You</a>
+                            <a class="dropdown-item" href="#">Thinking of You</a>
+                            <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                            <a class="dropdown-item" href="#">Just Saying Hi</a>
+                            <a class="dropdown-item" href="#">Get Well Soon</a>
+                            <a class="dropdown-item" href="#">Congratulations</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="dropdown-item" href="#">With Sympathy</a>
+                            <a class="dropdown-item" href="#">New Baby</a>
+                            <a class="dropdown-item" href="#">Bon Voyage</a>
+                            <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                            <a class="dropdown-item" href="#">US Patriotic</a>
+                            <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-image">
+                        <img src="images/image.jpg">
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown" >
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    BEHIND THE SCENES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                    <div class="dropdown-items">
+                        <div class="col-1">
+                            <a class="dropdown-item" href="#">Happy Birthday</a>
+                            <a class="dropdown-item" href="#">Thank You</a>
+                            <a class="dropdown-item" href="#">Thinking of You</a>
+                            <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                            <a class="dropdown-item" href="#">Just Saying Hi</a>
+                            <a class="dropdown-item" href="#">Get Well Soon</a>
+                            <a class="dropdown-item" href="#">Congratulations</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="dropdown-item" href="#">With Sympathy</a>
+                            <a class="dropdown-item" href="#">New Baby</a>
+                            <a class="dropdown-item" href="#">Bon Voyage</a>
+                            <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                            <a class="dropdown-item" href="#">US Patriotic</a>
+                            <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-image">
+                        <img src="images/image.jpg">
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    GIFT BASKET
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                    <div class="dropdown-items">
+                        <div class="col-1">
+                            <a class="dropdown-item" href="#">Happy Birthday</a>
+                            <a class="dropdown-item" href="#">Thank You</a>
+                            <a class="dropdown-item" href="#">Thinking of You</a>
+                            <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                            <a class="dropdown-item" href="#">Just Saying Hi</a>
+                            <a class="dropdown-item" href="#">Get Well Soon</a>
+                            <a class="dropdown-item" href="#">Congratulations</a>
+                        </div>
+                        <div class="col-2">
+                            <a class="dropdown-item" href="#">With Sympathy</a>
+                            <a class="dropdown-item" href="#">New Baby</a>
+                            <a class="dropdown-item" href="#">Bon Voyage</a>
+                            <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                            <a class="dropdown-item" href="#">US Patriotic</a>
+                            <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-image">
+                        <img src="images/image.jpg">
+                    </div>
+                </div>
+            </li>
+            <ul class="navbar-popup">
+                <li class>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-bs-auto-close="outside">
+                        <div class="dropdown-items">
+                            <div class="col-1">
+                                <a class="dropdown-item" href="#">Happy Birthday</a>
+                                <a class="dropdown-item" href="#">Thank You</a>
+                                <a class="dropdown-item" href="#">Thinking of You</a>
+                                <a class="dropdown-item" href="#">Wedding / Anniversary</a>
+                                <a class="dropdown-item" href="#">Just Saying Hi</a>
+                                <a class="dropdown-item" href="#">Get Well Soon</a>
+                                <a class="dropdown-item" href="#">Congratulations</a>
+                            </div>
+                            <div class="col-2">
+                                <a class="dropdown-item" href="#">With Sympathy</a>
+                                <a class="dropdown-item" href="#">New Baby</a>
+                                <a class="dropdown-item" href="#">Bon Voyage</a>
+                                <a class="dropdown-item" href="#">Good Luck / Retirement</a>
+                                <a class="dropdown-item" href="#">US Patriotic</a>
+                                <a class="dropdown-item" style="color: #ad502e; text-decoration: underline; font-weight: 600;" href="#">View all cards</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-image">
+                            <img src="images/image.jpg">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- content -->
+    <main id="main">
+        <section id="section-1">
+            <div class="content-wrapper">
+                <h1 class="section-title">
+                    Start your FREE membership
+                </h1>
+                <p class="section-description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                </p>
+            </div>
+            <div class="section-navigation">
+                <ul class="navigation-bar">
+                    <li class="navigation-link">REDEEM</li>
+                    <li class="navigation-link">REGISTER</li>
+                    <li class="navigation-link">CONFIRMATION</li>
+                </ul>
+            </div>
+        </section>
+        <section id="section-2">
+            <div class="gift-subsection">
+                <img class="gift-image" src="images/image2.jpg">
+                <p class="gift-description">
+                    Use the voucher from the e-mail you received to obtain free membership of jacquielawson.com ~ 
+                    the classiest e-card site on the web!
+                </p>
+            </div>
+            <div class="redeem-subsection">
+                <h2 class="redeem-title">
+                    Enter Your Code
+                </h2>
+                <p class="redeem-description">
+                    Fields marked with an asterisk (*) are required.
+                </p>
+                <form id="redeem-form">
+                    <div class="form-inputs">
+                        <div class="input-row">
+                            <label class="form-label" id="label-redemption">*REDEMPTION CODE:</label>
+                            <input class="form-input" id="redemptionCode">
+                            <div class="error-text" id="redemptionCodeError"></div>
+                        </div>
+                        <div class="input-row">
+                            <label class="form-label" id="label-email">*E-MAIL ADDRESS:</label>
+                            <input class="form-input" id="emailAddress">
+                            <div class="error-text" id="emailAddressError"></div>
+                        </div>
+                        <div class="input-row">
+                            <label class="form-label">*COUNTRY:</label>
+                            <select id="dropdown" class="form-input">
+                                <option value="USA">USA</option>
+                                <option value="Romania">Romania</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="form-submit" type="submit">Continue</button>
+                </form>
+            </div>
+        </section>
+        <section id="section-3">
+            <div class="ecards-subsection">
+                <h2 class="ecards-title">
+                    The Classiest Ecards On The Web
+                </h2>
+                <p class="ecards-description">
+                        Jacquie Lawson is an English artist who lives in the picturesque village of
+                    Lurgashall in Southern England. Together with a small team of family and friends
+                    she has developed a unique collection of animated ecards, shich show a degree of
+                    artistry and attention to detail rarely seen in the medium of ecards. Even the
+                    music is composed and arranged specially for each card!
+                </p>
+                <p class="ecards-description">
+                        If you are visiting this page you probably received an email with a voucher
+                    giving you free membership to jacquielawson.com. Membership will allow you to send
+                    as many of our ecards as you like! All you have to do is enter your voucher details
+                    above, and within minutes you can be sending our delightful ecards to your friends
+                    and family.
+                </p>
+            </div>
+            <div class="image-subsection">
+                <img class="ecard-image" src="images/image3.jpg">
+            </div>
+        </section>
+    </main>
+  </body>
+</html>
